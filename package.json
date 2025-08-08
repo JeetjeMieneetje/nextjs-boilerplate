@@ -1,7 +1,3 @@
-Je hebt een extra accolade en de komma staat verkeerd. De correcte structuur is:
-
-json
-Kopiëren
 {
   "name": "nextjs",
   "version": "0.1.0",
