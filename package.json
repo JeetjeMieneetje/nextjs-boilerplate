@@ -1,3 +1,7 @@
+Je hebt een extra accolade en de komma staat verkeerd. De correcte structuur is:
+
+json
+Kopiëren
 {
   "name": "nextjs",
   "version": "0.1.0",
@@ -11,7 +15,8 @@
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "next": "15.4.6",
+    "airtable": "^0.11.1"
   },
   "devDependencies": {
     "typescript": "^5",
