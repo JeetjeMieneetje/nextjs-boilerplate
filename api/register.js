@@ -1,7 +1,7 @@
 import Airtable from 'airtable';
 import { authenticator } from 'otplib';
 
-const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(app1czvypD0MI0hr1);
+const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base('app1czvypD0MI0hr1');
 
 export default async function handler(req, res) {
   // Haal gebruikersnaam en e-mail op uit het verzoek
